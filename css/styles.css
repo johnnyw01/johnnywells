@@ -224,6 +224,7 @@ body {
 /* Styles for screens smaller than 576px (extra small screens) */
 @media (max-width: 576px) {
   .name {
+    font-size:4rem;
     word-wrap: break-word;
     overflow: hidden; /* Prevents the <h1> from overflowing its container */
   }
