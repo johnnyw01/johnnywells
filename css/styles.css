@@ -1,0 +1,252 @@
+/* General Styles */
+body {
+  /* text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5); */
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 100rem;
+}
+
+/*.b-example-divider {*/
+/*  height: 3rem;*/
+/*  background-color: rgba(0, 0, 0, .1);*/
+/*  border: solid rgba(0, 0, 0, .15);*/
+/*  border-width: 1px 0;*/
+/*  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);*/
+/*}*/
+
+/*.b-example-vr {*/
+/*  flex-shrink: 0;*/
+/*  width: 1.5rem;*/
+/*  height: 100vh;*/
+/*}*/
+
+/*.bi {*/
+/*  vertical-align: -.125em;*/
+/*  fill: currentColor;*/
+/*}*/
+
+/*.bd-placeholder-img {*/
+/*  font-size: 1.125rem;*/
+/*  text-anchor: middle;*/
+/*  -webkit-user-select: none;*/
+/*  -moz-user-select: none;*/
+/*  user-select: none;*/
+/*}*/
+
+/* Navigation Styles */
+
+ .nav-link {
+  /* color: rgba(255, 255, 255, .5); */
+  color: #fff;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-link:hover,
+ .nav-link:active {
+  color: #FEB139;
+  border-bottom-color: #FEB139
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 2rem;
+}
+
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+/* Index Styles */
+.johnny {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.johnny:hover {
+  color: #FEB139;
+}
+
+
+.name {
+  font-size: 6rem;
+}
+
+.profession {
+  color: #FEB139;
+}
+
+.btn-1,
+.btn-1:visited {
+  border: 2px solid #CF0000;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .1);
+  width: 20rem;
+  margin-right: 2rem;
+  text-shadow: none;
+}
+
+.btn-1:hover {
+  border: 2px solid #CF0000;
+  background-color: #CF0000;
+}
+
+.btn-2,
+.btn-2:visited {
+  border: 2px solid #6930C3;
+  background-color: rgba(0, 0, 0, .1);
+  color: #fff;
+  width: 12rem;
+}
+
+.btn-2:hover {
+  border: 2px solid #6930C3;
+  background-color: #6930C3;
+}
+
+/* Footer Styles */
+
+.footer-grid {
+  font-size: 0.8rem;
+}
+
+.social-icon {
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.linked-In {
+  color: #fff;
+}
+
+.linked-In:hover {
+  text-decoration: none;
+  color: #FEB139;
+}
+
+.email-me {
+  color: #fff;
+}
+
+.email-me:hover {
+  text-decoration: none;
+  color: #FEB139;
+}
+
+/* About Me Styles */
+.about-me-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hello {
+  color: #FEB139;
+}
+
+.book-call-btn,
+.book-call-btn:visited {
+  border: 2px solid #CF0000;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .1);
+  text-shadow: none;
+}
+
+.book-call-btn:hover {
+  border: 2px solid #CF0000;
+  background-color: #CF0000;
+}
+
+.email-me-btn,
+.email-me-btn:visited {
+  border: 2px solid #6930C3;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .1);
+  text-shadow: none;
+}
+
+.email-me-btn:hover {
+  border: 2px solid #6930C3;
+  background-color: #6930C3;
+}
+
+/* Portfolio-Overview Styles */
+.see-item-btn {
+  color: #fff;
+  background-color: #6930C3;
+}
+
+.see-item-btn:hover {
+  color: #000;
+  background-color: #FEB139;
+}
+.card-body {
+  height: 100%;
+}
+
+
+/* Portfolio-Item Styles */
+.project-link {
+  text-decoration: none;
+  color: #FEB139;
+}
+
+.project-link:hover {
+  text-decoration: none;
+  color: #CF0000;
+}
+
+.elc-img {
+  height: 930px;
+  width: 700px;
+}
+
+
+/* Media Quieres */
+
+/* Styles for screens smaller than 576px (extra small screens) */
+@media (max-width: 576px) {
+  .name {
+    word-wrap: break-word;
+    overflow: hidden; /* Prevents the <h1> from overflowing its container */
+  }
+
+  .johnny {
+    display: none; /* Hides the <a> with the class 'johnny' */
+  }
+}
+@media (max-width: 658px) {
+  .btn-1, .btn-2 {
+    width: auto;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 992px) {
+  .hello{
+    margin-top: 2rem;
+  }
+}
+
