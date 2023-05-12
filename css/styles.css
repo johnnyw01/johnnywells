@@ -43,16 +43,15 @@ body {
   border-bottom: .25rem solid transparent;
 }
 
-.nav-link:hover,
- .nav-link:active {
-  color: #FEB139;
-  border-bottom-color: #FEB139
-}
+/*.nav-link:hover,*/
+/* .nav-link:active {*/
+/*  color: #FEB139;*/
+/*  border-bottom-color: #FEB139*/
+/*}*/
 
 .nav-item:not(:last-child) {
   margin-right: 2rem;
 }
-
 
 .nav-scroller {
   position: relative;
@@ -75,9 +74,7 @@ body {
 
 
 /* Index Styles */
-/*.main-section{*/
-/*  margin-bottom: 15rem;*/
-/*}*/
+
 .johnny {
   text-decoration: none;
   color: #fff;
@@ -227,7 +224,7 @@ body {
 /* Styles for screens smaller than 576px (extra small screens) */
 @media (max-width: 576px) {
   .name {
-    font-size:4rem;
+    font-size:3.8rem;
     word-wrap: break-word;
     overflow: hidden; /* Prevents the <h1> from overflowing its container */
   }
@@ -243,11 +240,31 @@ body {
   }
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
+@media (max-width: 768px) {
+  .nav-link span {
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+  }
+
+  .nav-link:hover span,
+  .nav-link:active span {
+    border-bottom-color: #FEB139;
   }
 }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+
+    .nav-link:hover,
+    .nav-link:active {
+      color: #FEB139;
+      border-bottom-color: #FEB139
+    }
+  }
+
+
 @media (max-width: 992px) {
   .hello{
     margin-top: 2rem;
