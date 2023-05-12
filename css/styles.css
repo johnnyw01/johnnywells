@@ -96,7 +96,7 @@ body {
 
 .btn-1,
 .btn-1:visited {
-  border: 2px solid #CF0000;
+  border: 2px solid #4ADEDD;
   color: #fff;
   background-color: rgba(0, 0, 0, .1);
   width: 20rem;
@@ -105,8 +105,8 @@ body {
 }
 
 .btn-1:hover {
-  border: 2px solid #CF0000;
-  background-color: #CF0000;
+  border: 2px solid #4ADEDD;
+  background-color: #4ADEDD;
 }
 
 .btn-2,
@@ -134,21 +134,21 @@ body {
 }
 
 .linked-In {
-  color: #fff;
+  color: #FEB139;
 }
 
 .linked-In:hover {
   text-decoration: none;
-  color: #FEB139;
+  color: #fff;
 }
 
 .email-me {
-  color: #fff;
+  color: #FEB139;
 }
 
 .email-me:hover {
   text-decoration: none;
-  color: #FEB139;
+  color: #fff;
 }
 
 /* About Me Styles */
@@ -163,15 +163,15 @@ body {
 
 .book-call-btn,
 .book-call-btn:visited {
-  border: 2px solid #CF0000;
+  border: 2px solid #4ADEDD;
   color: #fff;
   background-color: rgba(0, 0, 0, .1);
   text-shadow: none;
 }
 
 .book-call-btn:hover {
-  border: 2px solid #CF0000;
-  background-color: #CF0000;
+  border: 2px solid #4ADEDD;
+  background-color: #4ADEDD;
 }
 
 .email-me-btn,
@@ -195,7 +195,7 @@ body {
 
 .see-item-btn:hover {
   color: #000;
-  background-color: #FEB139;
+  background-color: #4ADEDD;
 }
 .card-body {
   height: 100%;
@@ -210,7 +210,7 @@ body {
 
 .project-link:hover {
   text-decoration: none;
-  color: #CF0000;
+  color: #4ADEDD;
 }
 
 .elc-img {
