@@ -197,10 +197,16 @@ body {
   color: #000;
   background-color: #4ADEDD;
 }
-.card-body {
+.card {
+  display: flex;
+  flex-direction: column;
   height: 100%;
 }
 
+.card-title {
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
 
 /* Portfolio-Item Styles */
 .project-link {
@@ -224,7 +230,7 @@ body {
 /* Styles for screens smaller than 576px (extra small screens) */
 @media (max-width: 576px) {
   .name {
-    font-size:3.8rem;
+    font-size:3.6rem;
     word-wrap: break-word;
     overflow: hidden; /* Prevents the <h1> from overflowing its container */
   }
